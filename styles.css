@@ -1,0 +1,43 @@
+header {
+display: flex;
+top: 0px;
+left: 1px;
+width: 1919px;
+height: 60px;
+opacity: 1;
+background: #3A3A3A 0% 0% no-repeat padding-box;
+justify-content: center;
+}
+
+
+.img__1 {
+   left: 48px;
+    top: 5px;
+    left: 554px;
+    width: 58px;
+    height: 58px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    border-radius: 150px;
+    margin-top: 0px;
+
+}
+
+
+.p__1 {
+    display: flex;
+    top: 26px;
+    left: 906px;
+    width: 104px;
+    height: 17px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal bold 13px/17px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    justify-content: center;
+}
+
