@@ -1,0 +1,126 @@
+.p__ano {
+    display: flex;
+    position: absolute;
+top: 1143px;
+left: 385px;
+width: 109px;
+height: 31px;
+text-align: left;
+font: normal normal 600 13px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.p__curso {
+    display: flex;
+    position: absolute;
+top: 1165px;
+left: 385px;
+width: 844px;
+height: 31px;
+text-align: left;
+font: normal normal bold 21px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+
+}
+
+.p__universidade {
+    display: flex;
+    position: absolute;
+    top: 1189px;
+left: 385px;
+width: 558px;
+height: 31px;
+text-align: left;
+font: normal normal 600 13px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.p__ano2 {
+    display: flex;
+    position: absolute;
+    top: 1243px;
+left: 385px;
+width: 109px;
+height: 31px;
+text-align: left;
+font: normal normal 600 13px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.p__curso2 {
+    display: flex;
+    position: absolute;
+top: 1265px;
+left: 385px;
+width: 844px;
+height: 31px;
+text-align: left;
+font: normal normal bold 21px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.p__universidade2 {
+    display: flex;
+    position: absolute;
+    top: 1290px;
+left: 385px;
+width: 558px;
+height: 31px;
+text-align: left;
+font: normal normal 600 13px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.p__ano22 {
+    display: flex;
+    position: absolute;
+top: 1490px;
+left: 385px;
+width: 109px;
+height: 31px;
+text-align: left;
+font: normal normal 600 13px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.p__curso22 {
+    display: flex;
+    position: absolute;
+top: 1513px;
+left: 385px;
+width: 844px;
+height: 31px;
+text-align: left;
+font: normal normal bold 21px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.p__microinformatica {
+    display: flex;
+    position: absolute;
+    top: 1540px;
+left: 385px;
+width: 558px;
+height: 31px;
+text-align: left;
+font: normal normal 600 13px/34px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
