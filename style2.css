@@ -124,3 +124,174 @@ letter-spacing: 0px;
 color: #707070;
 opacity: 1;
 }
+
+.projeto__1 {
+    top: 1645px;
+left: 0px;
+width: 1347px;
+height: 410px;
+background: #F2F2F2 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+.card {
+    display: flex;
+    position: absolute;
+    top: 1850px;
+left: 375px;
+width: 260px;
+height: 270px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+border-radius: 5px;
+opacity: 1;
+}
+
+.card__barge {
+   display: flex;
+   position: absolute;
+top: 140px;
+left: 20px;
+width: 250px;
+height: 25px;
+text-align: left;
+font: normal normal bold 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.pp__0 {
+    display: flex;
+   position: absolute;
+    top: 180px;
+left: 20px;
+width: 232px;
+height: 76px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 13px/17px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.card__imagem {
+    top: 1790px;
+left: 566px;
+width: 232px;
+height: 129px;
+border: none;
+opacity: 1;
+}
+
+.projeto__titulo {
+    display: flex;
+   position: absolute;
+    top: 1740px;
+left: 375px;
+width: 185px;
+height: 73px;
+text-align: left;
+font: normal normal 300 55px/73px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.botao__uno {
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    height: 34px;
+    background: #585858 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1; 
+
+}
+
+.botao {
+    padding-left: 9px;
+    padding-right: 5px;
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    display: flex;
+    top: 2070px;
+    left: 455px;
+    width: 100px;
+    height: 35px;
+    text-align: left;
+    font: normal normal bold 12px/16px Segoe UI;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.card__imagem2 {
+    top: 1790px;
+left: 566px;
+width: 232px;
+height: 129px;
+border: none;
+opacity: 1;
+}
+
+.card__2 {
+    display: flex;
+    position: absolute;
+    top: 1850px;
+    left: 650px;
+    width: 260px;
+    height: 270px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.card2__barge2 {
+    display: flex;
+    position: absolute;
+    top: 140px;
+left: 20px;
+width: 250px;
+height: 25px;
+text-align: left;
+font: normal normal bold 21px/28px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.bb__1 {
+    display: flex;
+    position: absolute;
+top: 180px;
+left: 20px;
+width: 232px;
+height: 76px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 13px/17px Segoe UI;
+letter-spacing: 0px;
+color: #707070;
+opacity: 1;
+}
+
+.botao__dos {
+    display: flex;
+    position: absolute;
+top: 220px;
+left: 78px;
+width: 110px;
+height: 34px;
+background: #585858 0% 0% no-repeat padding-box;
+border-radius: 5px;
+opacity: 1;
+}
+
+
