@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rascunho Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="emailstyle.css">
      <link rel="stylesheet" href="style2.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -132,26 +133,30 @@
         </div>
         
 </section>
-
-
-    
-
-<section>
-<a href="https://github.com/eadrianc/InicioProjetoHTML.git" target="_blank" rel="noopener"><h1>Git</h1></a>
-
+<section class="Contato__email">
+    <h1 class=" Contato__1">Contato</h1>
+    <form action="https://formsubmit.co/edgarcampos206@gmail.com" method="POST">
+        <input class="text__1" type="text" name="name" placeholder="NOME" required/>
+        <input class="email" type="email" name="email" placeholder="E-MAIL" required/>
+        <input class="assuntos" type="Assunto" name="Assunto" placeholder="ASSUNTO" required/>
+        <textarea class="mensagem" name="message" placeholder="Escreva aqui a mensagem" required></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html"/>
+        <button class="botao__00" type="submit">Send</button>
+    </form>
+    <h1 class="Sobre__1">Sobre mim</h1>
 </section>
+<video class="video__1" width="400" controls src="videos/Resultado_Exercico_Java.mp4"></video>
 
-<h1>Sobre mim</h1>
-<video width="400" controls src="videos/Resultado_Exercico_Java.mp4"></video>
 
 <footer>
-    <p>Contacto</p>
-    <nav>
+
+<nav>
         <a href="https://api.whatsapp.com/send?phone=5543998031702&text=hora"  target="_blank" rel="noopener">whatsapp</a>
         <a href="https://www.facebook.com/adrian.campos.758737"  target="_blank" rel="noopener">Facebook</a>
         <a href="https://www.linkedin.com/in/edgar-adrian-campos-hernandez-059151122/"  target="_blank" rel="noopener">Likedin</a>
     </nav>
-    </footer>
+</footer>
 
 </body>
 </html>
