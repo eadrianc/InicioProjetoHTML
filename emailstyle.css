@@ -1,17 +1,18 @@
-.Contato__email {
+ /*.Contato__email { 
     top: 2163px;
 left: 0px;
 width: 1347px;
-    height: 353px;
-/* UI Properties */
-background: #000000 0% 0% no-repeat padding-box;
+    height: 600px;
+background: linear-gradient(90deg, #00dbde 0%, #fc00ff);
 opacity: 1;
 }
+/*
+
 
 .Contato__1 {
-    display: flex;
-    position: absolute;
-    top: 2135px;
+display: flex;
+position: relative;
+    top: 0px;
 left: 650px;
 width: 185px;
 height: 73px;
@@ -25,7 +26,7 @@ opacity: 1;
 .Sobre__1 {
     display: flex;
     position: absolute;
-    top: 2180px;
+    top: 1777px;
 left: 130px;
 width: 140px;
 height: 73px;
@@ -56,7 +57,7 @@ opacity: 1;
 left: 650px;
 width: 398px;
 height: 34px;
-/* UI Properties */
+/UI Properties
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #707070;
 border-radius: 4px;
@@ -70,27 +71,25 @@ opacity: 1;
 left: 650px;
 width: 398px;
 height: 34px;
-/* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #707070;
 border-radius: 4px;
 opacity: 1;
 }
-
+*/
 .mensagem {
-    display: flex;
-    position: absolute;
+    
     top: 2330px;
 left: 650px;
 width: 398px;
 height: 133px;
-/* UI Properties */
+/UI Properties 
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #707070;
 border-radius: 4px;
 opacity: 1;
 }
-
+/*
 .botao__00 {
     display: inline-flex;
     align-items: center;
@@ -99,11 +98,11 @@ opacity: 1;
     padding-right: 15px;
     display: flex;
     position: absolute;
-    top: 2466px;
+    top: 2000px;
 left: 780px;
 width: 122px;
 height: 34px;
-/* UI Properties */
+ UI Properties 
 background: #585858 0% 0% no-repeat padding-box;
 border-radius: 5px;
 opacity: 1;
@@ -116,3 +115,10 @@ opacity: 1;
 left: 130px;
 }
 
+#form {
+display: flex;
+position: absolute;
+top: 50px;
+}
+
+/*

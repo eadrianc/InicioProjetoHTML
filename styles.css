@@ -1,6 +1,12 @@
 * {
+   
     margin: 0;
     padding: 0;
+    
+}
+
+body {
+   background: linear-gradient(90deg, #00dbde 0%, #00ffff);
 }
 
 a {
@@ -13,6 +19,7 @@ a:hover {
 }
 
 .logo {
+   display: flex;
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -48,12 +55,7 @@ nav {
      
    }
 
-   .img__2 {
-      display: flex;
-      position: absolute;
-width: 100px;
-height: 377px;
-   }
+
 
 
 
@@ -106,6 +108,20 @@ height: 377px;
    
 }
 
+@media screen and (max-width: 320px) {
+   .img__2 {
+      display: flex;
+      top: 8vh;
+      right: 0;
+      width: 100vw;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      
+   }
+   
+}
+
 
 
 
@@ -129,6 +145,7 @@ margin-left: 32px;
 }
 
 .img__2{
+   display: flex;
 top: 0.5px;
 left: 1px;
 width: 1347px;
@@ -243,7 +260,6 @@ opacity: 1;
 
  .division__33 {
     display: flex;
-    
     top: 500px;
     left: 1px;
     width: 1347px;

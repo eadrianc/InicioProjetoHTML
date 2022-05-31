@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rascunho Portfolio</title>
+    <link rel="stylesheet" href="./1styles.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="emailstyle.css">
      <link rel="stylesheet" href="style2.css">
@@ -12,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -29,7 +31,7 @@
     </header>
     <main>
         <div>
-            <img class="img__2" src="img/fondo1.jpg" alt="foto de fondo" width="150" height="175">          
+            <img class="img__2" src="img/fondo1.jpg" alt="foto de fondo" >          
         </div>
         <div>
             <img class="img__3" src="img/FOTOMINHA.jpeg" alt="foto de fondo" width="150" height="175">
@@ -134,18 +136,55 @@
         
 </section>
 <section class="Contato__email">
-    <h1 class=" Contato__1">Contato</h1>
-    <form action="https://formsubmit.co/edgarcampos206@gmail.com" method="POST">
-        <input class="text__1" type="text" name="name" placeholder="NOME" required/>
-        <input class="email" type="email" name="email" placeholder="E-MAIL" required/>
-        <input class="assuntos" type="Assunto" name="Assunto" placeholder="ASSUNTO" required/>
-        <textarea class="mensagem" name="message" placeholder="Escreva aqui a mensagem" required></textarea>
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html"/>
-        <button class="botao__00" type="submit">Send</button>
-    </form>
+
     <h1 class="Sobre__1">Sobre mim</h1>
     <iframe class="video__11" width="400" height="220" src="https://www.youtube.com/embed/D6qx4JgaUAM" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    <form id="form" class="form" action="https://formsubmit.co/edgarcampos206@gmail.com" method="POST" >
+
+        
+        <div class="form-control">
+            <label for="username">Nome</label>
+            <input type="text" id="username" placeholder="Digite seu nome de usuario"/>
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de error</small>
+        </div>
+
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Digite seu email"/>
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de error</small>
+        </div>
+
+        <div class="form-control">
+            <label for="subject">Assunto</label>
+            <input type="Assunto" id="subject" placeholder="Digite o assunto"/>
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de error</small>
+        </div>
+
+        <div class="form-control">
+            <label for="text-subject">Escreva aqui</label>
+            <textarea class="mensagem" type="texto" id="text-subject" placeholder="Me escreva"></textarea>
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de error</small>
+            <input type="hidden" name="_captcha" value="false"/>
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html"/>
+            <button type="submit">Enviar</button>
+        </div>
+        
+        
+
+   
+        
+    </form>
+
+
 </section>
 
 
@@ -159,5 +198,7 @@
     </nav>
 </footer>
 
+<script src="https://kit.fontawesome.com/9851086252.js" crossorigin="anonymous"></script>
+    <script src="./scripts11.js"></script>
 </body>
 </html>
