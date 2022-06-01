@@ -23,19 +23,6 @@ color: #FFFFFF;
 opacity: 1;
 }
 
-.Sobre__1 {
-    display: flex;
-    position: absolute;
-    top: 1777px;
-left: 130px;
-width: 140px;
-height: 73px;
-text-align: left;
-font: normal normal 30 30px/73px Segoe UI;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
-}
 
 .text__1 {
     display: flex;
@@ -77,6 +64,8 @@ border-radius: 4px;
 opacity: 1;
 }
 */
+
+
 .mensagem {
     
     top: 2330px;

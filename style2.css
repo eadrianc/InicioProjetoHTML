@@ -126,12 +126,14 @@ opacity: 1;
 }
 
 .projeto__1 {
-    top: 1645px;
 left: 0px;
 width: 1347px;
-height: 410px;
-background: #F2F2F2 0% 0% no-repeat padding-box;
+    height: 400px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
 opacity: 1;
+width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .card {
