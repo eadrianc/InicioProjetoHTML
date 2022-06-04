@@ -105,7 +105,8 @@ border-color: #2ecc71;
 
 
 .Contato__email { 
-    position: relative;
+   display: flex;
+   position: relative;
 left: 0px;
 width: 1347px;
     height: 700px;
@@ -120,13 +121,14 @@ width: 100%;
 
 .video__11 {
     display: flex;
-    position: relative;
+   
     top: 50px;
     right: 50px;
     
 }
 
 .Contato__email iframe {
+    display: flex;
     position: relative;
     margin-left: 100px;
 top: 20px;

@@ -33,7 +33,7 @@ if (emailValue == '') {
 }
 
 if (subjectValue == "") {
-    setErrorFor(subject, "O assunto é obrigadorio. ");
+    setErrorFor(subject, "O assunto é obrigatorio. ");
 }else {
     setSuccessFor(subject);
 }

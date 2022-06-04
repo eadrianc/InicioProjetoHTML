@@ -1,8 +1,8 @@
-* {
-   
-    margin: 0;
-    padding: 0;
-    
+body {
+   margin: 0;
+   padding: 0;
+  
+  
 }
 
 body {
@@ -59,6 +59,7 @@ nav {
 
 
 
+
 }
 
 @media screen and (max-width: 420px) {
@@ -68,15 +69,104 @@ nav {
       
    }
 
+
+   .Contato__email {
+      display: inline-block;
+      justify-content: center;
+   
+      
+   }
+
+   .Contato__email .video__11 {
+      width: 250px;
+      height:  150px;
+      display: flex;
+     position: absolute;
+     top: 100px;
+     right: 90px;
+      
+  
+  }
+
+  .Contato__email .video2 {
+     display: flex;
+     position: absolute;
+     top: 300px;
+     right: 90px;
+     width: 250px;
+     height:  350px;
+
+  }
+
+  .Contato__email form {
+     top: 780px;
+     position: absolute;
+     
+   width: 368px;
+   
+   
+   
+
+}
+
+main  .img__2 {
+   display:none !important;
+}
+
+.division__33 {
+   display:none !important;
+}
+
+.fotostemas {
+   display:none !important;
+
+}
+
+.brevepresentacion {
+   display:none !important;
+}
+
+.division__44 {
+   display:none !important;
+}
+.projeto__1 {
+   display:none !important;
+}
+
+body {
+   margin: auto;
+   padding: auto;
+  
+  
+}
+
+
+
+
+
+main .img__3 {
+   display: flex;
+   position: absolute;
+      justify-content: center;
+   
+}
+
+
+
+
+
    .projeto__1 {
    justify-content: left;
       display: flex;
       top: 50px;
       left: 300px;
       padding: auto;
+
       
       
    }
+
+   
 
 }
 
@@ -91,6 +181,10 @@ nav {
       align-items: center;
       justify-content: space-around;
    }
+
+   
+
+   
 
 }
 
@@ -281,7 +375,7 @@ opacity: 1;
  .h1__f {
      display: flex;
      position: absolute;
-    top: 1050px;
+    top: 1075px;
     left: 375px;
     width: 230px;
     height: 73px;
@@ -295,7 +389,7 @@ opacity: 1;
  .h1__E {
     display: flex;
     position: absolute;
-    top: 1410px;
+    top: 1435px;
     left: 375px;
     width: 258px;
     height: 73px;
@@ -309,8 +403,8 @@ opacity: 1;
  .linia__vertical1 {
     display: flex;
     position: absolute;
-    top: 1250px;
-    left: 375px;
+    top: 1320px;
+    left: 380px;
     width: 8px;
     height: 66px;
     background: #000000 0% 0% no-repeat padding-box;
@@ -321,8 +415,8 @@ opacity: 1;
  .linia__vertical2 {
     display: flex;
     position: absolute;
-    top: 1150px;
-    left: 375px;
+    top: 1230px;
+    left: 380px;
     width: 8px;
     height: 66px;
     background: #000000 0% 0% no-repeat padding-box;
@@ -333,8 +427,8 @@ opacity: 1;
  .linia__vertical3 {
     display: flex;
     position: absolute;
-    top: 1500px;
-left: 375px;
+    top: 1580px;
+left: 381px;
 width: 8px;
 height: 66px;
 background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -418,6 +512,16 @@ opacity: 1;
     top: 910px;
     left: 200px;
  }
+
+ .projeto__1 {
+    
+      display: flex;
+      top: 50px;
+      left: 300px;
+      padding: auto;
+      justify-content: center;
+      
+   }
 
  
  
